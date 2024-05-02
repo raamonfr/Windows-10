@@ -1,0 +1,64 @@
+.icons-app {
+    display: flex;
+}
+
+#desktop button:hover, #barra-tarefas button:hover {
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+#desktop button:active, #barra-tarefas button:active {
+    background-color: rgba(255, 255, 255, 0.301);
+}
+
+#barra-tarefas #bttndesktop {
+    width: 6px;
+    border-left: 2px solid rgb(110, 110, 110);
+}
+
+#barra-tarefas button, #desktop button{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#barra-tarefas button {
+    width: 45px;
+}
+
+#barra-tarefas button img{
+    width: 26px;
+}
+
+#barra-tarefas button .grande-p-pikeno {
+    width: 20px;
+}
+
+#barra-tarefas button .medio-p-pikeno {
+    width: 22px;
+}
+
+.icones-desktop {
+    width: 52px;
+}
+
+.icons-system {
+    display: flex;
+}
+
+.icons-system button i, p{
+    color: white;
+    font-size: 1.1em;
+}
+
+.windowActions i{
+    color: white;
+    font-size: 1.3em;
+    width: 35px;
+}
+
+.navBasica button i{
+    color: white;
+}
