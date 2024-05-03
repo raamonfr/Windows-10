@@ -22,11 +22,11 @@
                     <i class="fa-solid fa-minus"></i>
                 </button>
 
-                <button>
+                <button id="max-min">
                     <i class="fa-regular fa-square"></i>
                 </button>
 
-                <button>
+                <button id="fechar">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
@@ -48,9 +48,36 @@
                 <input type="text" name="pesquisaRapida" id="pesquisaRapida" placeholder="Pesquisar em Acesso rápido">  
             </nav>
 
-            <aside>
-                
-            </aside>
+            <div id="lados-explo-arq">
+                <aside id="lado-esquerdo">
+                    <section id="accordions">
+                        <div class="accordion">
+                            <button class="accordion-header">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                
+                                <span>
+                                    <img src="imgs/exploArq/barraNavegacao/estrela-cadente.png" alt="Acesso Rapido">
+                                    Acesso Rapido
+                                </span>
+                            </button>
+
+                            <div class="accordion-body">
+                                <button class="btn-atalhos" id="area-trabalho"><img src="imgs/exploArq/barraNavegacao/area-trabalho.png" alt="Area de trabalho"><p>Área de Trabalho</p></button>
+                                
+                                <button class="btn-atalhos" id="downloads"><img src="imgs/exploArq/barraNavegacao/baixar.png" alt="Area de trabalho"><p>Downloads</p></button>
+                                
+                                <button class="btn-atalhos" id="documentos"><img src="imgs/exploArq/barraNavegacao/documento.png" alt="Area de trabalho"><p>Documentos</p></button>
+                                
+                                <button class="btn-atalhos" id="imagens"><img src="imgs/exploArq/barraNavegacao/area-trabalho.png" alt="Area de trabalho"><p>Imagens</p></button>
+                            </div>
+                        </div>
+                    </section>
+                </aside>
+
+                <aside id="lado-direito">
+
+                </aside>
+            </div>
         </section>
     </main>
 
@@ -65,7 +92,7 @@
             <button>
                 <img class="medio-p-pikeno" id="edge" src="imgs/barraTaref/microsodt-edge.png" alt="Microsoft Edge">
             </button>
-            <button>
+            <button id="btnExplorador">
                 <img class="medio-p-pikeno" id="explorador" src="imgs/barraTaref/pasta.png" alt="Explorador de Arquivos">
             </button>
             <button>

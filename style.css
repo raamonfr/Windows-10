@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
     background-color: #1c2d3f;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .fileria-icones {
@@ -42,25 +44,28 @@ body {
 }
 
 #exploArq {
-    position: absolute;
+    /* display: none; */
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
-    height: 80%;
-    background-color: rgb(37, 37, 37);
+    width: 60%;
+    height: 60%;
+    background-color: rgb(27, 27, 27);
 }
 
 .windowActions {
     display: flex;
     justify-content: end;
-    background-color: black
+    background-color: black;
+    height: 5%;
 }
 
 .navBasica {
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    height: 3%;
 }
 
 .nav {
@@ -80,4 +85,23 @@ input[type="text"] {
     height: 20px;
     width: 230px;
     color: white;
+}
+
+#lados-explo-arq {
+    display: flex;
+    height: 88.33%;
+}
+
+
+#lado-esquerdo{
+    width: 20%;
+}
+
+#lado-direito {
+    width: 80%;
+    background-color: rgb(54, 54, 54);
+}
+
+#accordions {
+    height: 100%;
 }
